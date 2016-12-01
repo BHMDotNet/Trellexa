@@ -1,0 +1,79 @@
+﻿{
+  "intents": [
+    {
+      "intent": "Test"
+    },
+    {
+
+      "intent": "CreateItem",
+      "slots": [
+        {
+          "name": "ItemName",
+          "type": "ITEM_NAME"
+        },
+        {
+          "name": "BoardName",
+          "type": "BOARD_NAME"
+        }
+      ]
+    },
+    {
+      "intent": "CreateBoard",
+      "slots": [
+        {
+          "name": "BoardName",
+          "type": "BOARD_NAME"
+        }
+      ]
+    },
+    {
+      "intent": "MoveItem",
+      "slots": [
+        {
+          "name": "ItemName",
+          "type": "ITEM_NAME"
+        },
+        {
+          "name": "Stage",
+          "type": "STAGE_NAME"
+        },
+        {
+          "name": "BoardName",
+          "type": "BOARD_NAME"
+        }
+      ]
+    },
+    {
+      "intent": "GetNextItem",
+      "slots": [
+        {
+          "name": "BoardName",
+          "type": "BOARD_NAME"
+        },
+        {
+          "name": "StageName",
+          "type": "STAGE_NAME"
+        }
+      ]
+    },
+    {
+      "intent": "GetNextItem",
+      "slots": [
+        {
+          "name": "BoardName",
+          "type": "BOARD_NAME"
+        },
+        {
+          "name": "StageName",
+          "type": "STAGE_NAME"
+        }
+      ]
+    },
+    {
+      "intent": "GetActiveItems"
+    },
+    {
+      "intent": "ReviewItems"
+    }
+  ]
+}

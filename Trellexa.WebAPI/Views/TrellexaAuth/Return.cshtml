@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body onload="redirect()">
+    <div>
+    <script type="text/javascript">
+        function redirect() {
+            //var token = /(?:.*#token=).*/.exec(window.location);
+            //var redirect = /(?:.*redirect=)[^#&]*/.exec(window.location);
+
+            var url = window.location.toString().replace("#", "&").replace("/Return", "/Callback");
+            window.location.replace(url);
+        }
+    </script>
+    </div>
+</body>
+</html>

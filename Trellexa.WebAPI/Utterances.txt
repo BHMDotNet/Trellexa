@@ -1,0 +1,32 @@
+﻿CreateBoard Create a new board
+CreateBoard Create a new board called {BoardName}
+CreateBoard Add a new board
+CreateBoard Add a new board called {BoardName}
+CreateBoard Called {BoardName}
+CreateItem Add a todo item named {ItemName}
+CreateItem Add a new item named {ItemName}
+CreateItem Add a new item called {ItemName}
+CreateItem Add a new item named {ItemName} on the {BoardName} board
+CreateItem Add a todo item named {ItemName} on the {BoardName} board
+CreateItem Add a new todo item named {ItemName} on the {BoardName} board
+CreateItem Create a todo item named {ItemName}
+CreateItem Create a todo item called {ItemName}
+CreateItem Create a new item named {ItemName}
+CreateItem Create a new item called {ItemName}
+CreateItem Create a new item named {ItemName} on the {BoardName} board
+CreateItem Create a todo item named {ItemName} on the {BoardName} board
+CreateItem Create a new todo item named {ItemName} on the {BoardName} board
+CreateItem Create a new todo item called {ItemName} on the {BoardName} board
+MoveItem Move {ItemName} to {Stage}
+MoveItem Move {ItemName} to {Stage} on {BoardName} board
+MoveItem To Move {ItemName} to {Stage}
+MoveItem To Move {ItemName} to {Stage} on {BoardName} board
+GetNextItem What is the next item todo
+GetNextItem What is the next item todo on {BoardName}
+GetNextItem What is the next item todo in {StageName} on {BoardName}
+GetActiveItems What am I working on
+ReviewItems Start standup
+ReviewItems To Start standup
+ReviewItems What is on my todo list
+GetAssignedItems What items are assigned to {UserName}
+Test Are you working
